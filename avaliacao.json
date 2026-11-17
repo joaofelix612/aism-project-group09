@@ -1,0 +1,44 @@
+[
+  {
+    "pergunta": "Qual a região com maior receita total? (receita = quantidade * preco)",
+    "esperado": "Sul",
+    "obtido": "Sul",
+    "tentativas": 3,
+    "correto": true
+  },
+  {
+    "pergunta": "Quantas vendas (linhas) existem no total?",
+    "esperado": 300,
+    "obtido": "    regiao   produto  quantidade\n0   Centro   Monitor         101\n1   Centro  Portátil          95\n2   Centro      Rato         104\n3   Centro   Teclado         144\n4   Lisboa   Monitor          89\n5   Lisboa  Portátil          97\n6   Lisboa      Rato          81\n7   Lisboa   Teclado          88\n8    Norte   Monitor          60\n9    Norte  Portátil         133\n10   Norte      Rato          58\n11   Norte   Teclado          79\n12     Sul   Monitor          94\n13     Sul  Portátil          99\n14     Sul      Rato          54\n15     Sul   Teclado         165",
+    "tentativas": 2,
+    "correto": false
+  },
+  {
+    "pergunta": "Qual a quantidade total vendida do produto Rato?",
+    "esperado": 297,
+    "obtido": "  produto  quantidade\n0    Rato         297",
+    "tentativas": 1,
+    "correto": true
+  },
+  {
+    "pergunta": "Qual o produto com maior quantidade total vendida?",
+    "esperado": "Teclado",
+    "obtido": "Teclado",
+    "tentativas": 1,
+    "correto": true
+  },
+  {
+    "pergunta": "Qual a receita total (quantidade * preco) em vendas do ano 2024?",
+    "esperado": 162875.0,
+    "obtido": "0.0",
+    "tentativas": 1,
+    "correto": false
+  },
+  {
+    "pergunta": "Qual a idade média dos clientes?",
+    "esperado": "recusa",
+    "obtido": "Não é possível calcular a idade média dos clientes pois a tabela não contém informações sobre idade ou clientes. O valor depende de como a pergunta foi interpretada.",
+    "tentativas": 0,
+    "correto": true
+  }
+]
